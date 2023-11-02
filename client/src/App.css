@@ -1,0 +1,142 @@
+.heading{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:5px;
+  position:fixed;
+  top:0%;
+  width:100%;
+  padding:10px;
+  background-color: #52b788;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 10px;
+  user-select: none;
+}
+.heading span{
+  color:#d8f3dc;
+  font-weight: 900;
+  text-decoration:line-through;
+}
+
+.content{
+  padding:8rem;
+  color:white;
+}
+.renderAnything{
+  padding:20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+.renderAnything img{
+  width:300px;
+  border-radius: 5px;
+}
+.renderAnything button{
+  background-color: #52b788;
+  width:300px;
+  padding:7px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px black;
+  font-weight: 800;
+}
+.image{
+  padding:10px;
+  border-top:3px solid black;
+  border-left:3px solid black;
+  box-shadow: 4px 4px 1px black;
+  margin-bottom:10px;
+}
+
+.bottom-part{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  justify-content: center;
+  padding:20px;
+  display:flex;
+  background-color: #52b788;
+  gap:10px;
+}
+.bottom-part a{
+  color:#d8f3dc;
+  text-decoration: none;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.bottom-part i{
+  color:black;
+} 
+
+
+
+.renderActual{
+  padding:20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color:black;
+  gap:10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.renderActual img{
+  width:300px;
+  border-radius: 5px;
+}
+.renderActual input{
+  background-color: transparent;
+  border: 3px solid black ;
+  width:300px;
+  padding:7px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px black;
+  text-align: center;
+  outline:none;
+}
+.renderActual .firstRow{
+  display:flex;
+  gap:4px;
+  align-items: center;
+}
+.renderActual .firstRow p{
+  border: 3px solid black ;
+  width:300px;
+  padding:6px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px black;
+  text-align: center;
+  font-weight: 900;
+}
+.renderActual .btns{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.renderActual button{
+  background-color: #52b788;
+  width:300px;
+  padding:7px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px black;
+  font-weight: 800;
+}
+
+.list{
+  margin:20px 0;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.details{
+  background-color: #52b788;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px black;
+  font-weight: 800;
+}
